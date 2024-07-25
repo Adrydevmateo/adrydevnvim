@@ -2,6 +2,9 @@ local global = vim.g
 local o = vim.opt
 local c = vim.cmd
 
+-- Editor globals
+global.mapleader = " "
+
 -- Editor commands
 c("colorscheme habamax")
 
