@@ -3,7 +3,7 @@ local o = vim.opt
 local c = vim.cmd
 
 -- Editor globals
-global.mapleader = " "
+global.mapleader = " " -- Sets <Space> as leader
 
 -- Editor commands
 c("colorscheme habamax")
