@@ -1,5 +1,9 @@
 local global = vim.g
 local o = vim.opt
+local c = vim.cmd
+
+-- Editor commands
+c("colorscheme habamax")
 
 -- Editor options
 
@@ -18,7 +22,7 @@ o.mouse = "a"
 o.title = true
 o.hidden = true
 o.wildmenu = true
-o.showcmd = true -- Set it off if the terminal is slow
+o.showcmd = false -- Set it off if the terminal is slow
 o.showmatch = true
 o.inccommand = "split"
 o.splitright = true
