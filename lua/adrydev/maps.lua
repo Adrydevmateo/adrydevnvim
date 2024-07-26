@@ -3,7 +3,8 @@ local function map(mode, lhs, rhs)
 end
 
 -- Save
-map("n", "<leader>w", "<CMD>update<CR>")
+map("n", "<C-s>", "<CMD>update<CR>")
+map("i", "<C-s>", "<Esc><CMD>update<CR>a")
 
 -- Quit
 map("n", "<leader>q", "<CMD>q<CR>")
