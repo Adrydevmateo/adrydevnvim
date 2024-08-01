@@ -5,9 +5,6 @@ local c = vim.cmd
 -- Editor globals
 global.mapleader = " " -- Sets <Space> as leader
 
--- Editor commands
-c("colorscheme habamax")
-
 -- Editor options
 
 o.number = true
