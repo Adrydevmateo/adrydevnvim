@@ -8,7 +8,7 @@ local c = vim.cmd
 -- c("colorscheme catppuccin-latte")
 -- c("colorscheme catppuccin-macchiato")
 -- c("colorscheme catppuccin-frappe")
-c("colorscheme catppuccin-mocha")
+-- c("colorscheme catppuccin-mocha")
 
 ---- rose pine
 -- c("colorscheme rose-pine")
@@ -19,6 +19,6 @@ c("colorscheme catppuccin-mocha")
 ---- tokyonight
 -- c("colorscheme tokyonight")
 -- c("colorscheme tokyonight-night")
--- c("colorscheme tokyonight-storm")
+c("colorscheme tokyonight-storm")
 -- c("colorscheme tokyonight-day")
 -- c("colorscheme tokyonight-moon")
