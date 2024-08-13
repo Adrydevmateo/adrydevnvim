@@ -1,24 +1,30 @@
-local c = vim.cmd
+local c = vim.cmd.colorscheme
 
 -- Themes
--- c("colorscheme habamax")
+-- c("habamax")
 
 ---- catppuccin
--- c("colorscheme catppuccin")
--- c("colorscheme catppuccin-latte")
--- c("colorscheme catppuccin-macchiato")
--- c("colorscheme catppuccin-frappe")
--- c("colorscheme catppuccin-mocha")
+-- c("catppuccin")
+-- c("catppuccin-latte")
+-- c("catppuccin-macchiato")
+-- c("catppuccin-frappe")
+-- c("catppuccin-mocha")
 
 ---- rose pine
--- c("colorscheme rose-pine")
--- c("colorscheme rose-pine-dawn")
--- c("colorscheme rose-pine-main")
--- c("colorscheme rose-pine-moon")
+-- c("rose-pine")
+-- c("rose-pine-dawn")
+-- c("rose-pine-main")
+-- c("rose-pine-moon")
 
 ---- tokyonight
--- c("colorscheme tokyonight")
--- c("colorscheme tokyonight-night")
-c("colorscheme tokyonight-storm")
--- c("colorscheme tokyonight-day")
--- c("colorscheme tokyonight-moon")
+-- c("tokyonight")
+-- c("tokyonight-night")
+-- c("tokyonight-storm")
+-- c("tokyonight-day")
+-- c("tokyonight-moon")
+
+---- decay
+-- c("decay-dark")
+-- c("decay-light")
+-- c("decay-default")
+c("decayce")

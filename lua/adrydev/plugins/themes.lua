@@ -1,5 +1,6 @@
 return {
+	{ "folke/tokyonight.nvim" },
 	{ "catppuccin/nvim", name = "catppuccin" },
 	{ "rose-pine/neovim", name = "rose-pine" },
-	{ "folke/tokyonight.nvim" },
+	{ "decaycs/decay.nvim", name = "decay" },
 }
