@@ -27,4 +27,7 @@ local c = vim.cmd.colorscheme
 -- c("decay-dark")
 -- c("decay-light")
 -- c("decay-default")
-c("decayce")
+-- c("decayce")
+
+---- Gruvbox
+c("gruvbox")
