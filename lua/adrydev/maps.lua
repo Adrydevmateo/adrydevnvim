@@ -7,7 +7,7 @@ map("n", "<C-s>", "<CMD>update<CR>")
 map("i", "<C-s>", "<Esc><CMD>update<CR>a")
 
 -- Quit
-map("n", "<leader>q", "<CMD>q<CR>")
+map("n", "<leader>q", "<CMD>bd<CR>")
 
 -- NeoTree
 map("n", "<leader>e", "<CMD>Neotree toggle<CR>")
