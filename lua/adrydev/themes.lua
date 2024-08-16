@@ -8,7 +8,7 @@ local c = vim.cmd.colorscheme
 -- c("catppuccin-latte")
 -- c("catppuccin-macchiato")
 -- c("catppuccin-frappe")
--- c("catppuccin-mocha")
+c("catppuccin-mocha")
 
 ---- rose pine
 -- c("rose-pine")
@@ -30,4 +30,4 @@ local c = vim.cmd.colorscheme
 -- c("decayce")
 
 ---- Gruvbox
-c("gruvbox")
+-- c("gruvbox")
