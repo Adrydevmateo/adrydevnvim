@@ -1,0 +1,29 @@
+local opt = vim.opt
+
+-- Editor options
+opt.spelllang = { "en" }
+opt.cursorline = true
+opt.showmode = false
+opt.signcolumn = "yes"
+opt.number = true
+opt.relativenumber = true
+opt.clipboard = "unnamedplus"
+opt.syntax = "on"
+opt.autoindent = true
+opt.cursorline = true
+opt.expandtab = true
+opt.shiftwidth = 2
+opt.tabstop = 2
+opt.encoding = "UTF-8"
+opt.ruler = true
+opt.laststatus = 3
+opt.mouse = "a"
+opt.title = true
+opt.hidden = true
+opt.wildmenu = true
+opt.showcmd = false -- Set it off if the terminal is slow
+opt.showmatch = true
+opt.inccommand = "split"
+opt.splitright = true
+opt.splitbelow = true
+opt.termguicolors = true
