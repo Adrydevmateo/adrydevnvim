@@ -16,6 +16,7 @@ return {
 				"jsonls",
 				"tsserver",
 				"emmet_language_server",
+				"gopls",
 			},
 		})
 

@@ -32,6 +32,7 @@ return {
 				"gitignore",
 				"c",
 				"vue",
+				"go",
 			},
 			incremental_selection = {
 				enable = true,
