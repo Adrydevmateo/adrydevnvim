@@ -39,3 +39,28 @@ map("v", "<A-k>", ":m '<-2<cr>gv=gv", { desc = "Move Up" })
 
 -- Clear search with <esc>
 map({ "i", "n" }, "<esc>", "<cmd>noh<cr><esc>", { desc = "Escape and Clear hlsearch" })
+
+---- External
+-- Curl => oysandvik94/curl.nvim
+map(
+	"n",
+	"<leader>cc",
+	"<CMD>lua require('curl').open_curl_tab()<CR>",
+	{ desc = "Open a curl tab scoped to the current working directory" }
+)
+
+map("n", "<leader>co", "<CMD>lua require('curl').open_global_tab()<CR>", { desc = "Open a curl tab with gloabl scope" })
+
+map(
+	"n",
+	"<leader>csc",
+	"<CMD>lua require('curl').create_scoped_collection()<CR>",
+	{ desc = "Create or open a collection with a name from user input" }
+)
+
+map(
+	"n",
+	"<leader>cgc",
+	"<CMD>lua require('curl').create_global_collection()<CR>",
+	{ desc = "Create or open a global collection with a name from user input" }
+)
