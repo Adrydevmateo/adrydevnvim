@@ -1,7 +1,9 @@
 local opt = vim.opt
 
 -- Editor options
-opt.spelllang = { "en" }
+opt.spelllang = { "en", "cjk" } -- cjk is used to prevent CJK characters from being marked as spell errors.
+opt.spell = true
+opt.spellsuggest = "best, 9"
 opt.cursorline = true
 opt.showmode = false
 opt.signcolumn = "yes"
