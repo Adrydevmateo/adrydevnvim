@@ -11,7 +11,7 @@ local c = vim.cmd.colorscheme
 -- c("catppuccin-mocha")
 
 ---- rose pine
--- c("rose-pine")
+c("rose-pine")
 -- c("rose-pine-dawn")
 -- c("rose-pine-main")
 -- c("rose-pine-moon")
@@ -30,4 +30,4 @@ local c = vim.cmd.colorscheme
 -- c("decayce")
 
 ---- Gruvbox
-c("gruvbox")
+-- c("gruvbox")
