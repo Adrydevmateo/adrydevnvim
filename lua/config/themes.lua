@@ -8,10 +8,10 @@ local c = vim.cmd.colorscheme
 -- c("catppuccin-latte")
 -- c("catppuccin-macchiato")
 -- c("catppuccin-frappe")
--- c("catppuccin-mocha")
+c("catppuccin-mocha")
 
 ---- rose pine
-c("rose-pine")
+-- c("rose-pine")
 -- c("rose-pine-dawn")
 -- c("rose-pine-main")
 -- c("rose-pine-moon")

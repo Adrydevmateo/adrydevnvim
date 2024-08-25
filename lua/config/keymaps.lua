@@ -49,7 +49,7 @@ map(
 	{ desc = "Open a curl tab scoped to the current working directory" }
 )
 
-map("n", "<leader>co", "<CMD>lua require('curl').open_global_tab()<CR>", { desc = "Open a curl tab with gloabl scope" })
+map("n", "<leader>co", "<CMD>lua require('curl').open_global_tab()<CR>", { desc = "Open a curl tab with global scope" })
 
 map(
 	"n",
