@@ -35,6 +35,12 @@ return {
 					capabilities = capabilities,
 				})
 			end,
+			["biome"] = function()
+				nvim_lsp["biome"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+				})
+			end,
 			["tsserver"] = function()
 				nvim_lsp["tsserver"].setup({
 					on_attach = on_attach,
@@ -71,12 +77,6 @@ return {
 			end,
 			["jsonls"] = function()
 				nvim_lsp["jsonls"].setup({
-					on_attach = on_attach,
-					capabilities = capabilities,
-				})
-			end,
-			["eslint"] = function()
-				nvim_lsp["eslint"].setup({
 					on_attach = on_attach,
 					capabilities = capabilities,
 				})
