@@ -1,4 +1,3 @@
-
 return {
 	"nvim-treesitter/nvim-treesitter",
 	event = { "BufReadPre", "BufNewFile" },
@@ -34,6 +33,7 @@ return {
 				"c",
 				"vue",
 				"go",
+				"astro",
 			},
 			incremental_selection = {
 				enable = true,

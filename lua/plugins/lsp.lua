@@ -35,6 +35,15 @@ return {
 					capabilities = capabilities,
 				})
 			end,
+			["astro"] = function()
+				nvim_lsp["astro"].setup({
+					on_attach = on_attach,
+					capabilities = capabilities,
+					extension = {
+						astro = "astro",
+					},
+				})
+			end,
 			["biome"] = function()
 				nvim_lsp["biome"].setup({
 					on_attach = on_attach,
